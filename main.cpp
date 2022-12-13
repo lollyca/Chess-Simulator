@@ -1,17 +1,17 @@
-// headers
+﻿// headers
 #include "includes.h"
-#include "chess.h"
+#include "board.h"
 
 
 int main()
 {
-    Chess game;
-    game.printLogo();
-    //game.printEmptyBoard();
-    game.printBoard();
-    return 0;
+	board puripuri;
+	puripuri.printBoard();
+
+	cout << endl;
+	cout << endl;
+	cout << endl;
+	cout << endl;
+
+	return 0;
 }
-
-
-
-
